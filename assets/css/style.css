@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
+body {
+  background: #39393B;
+  font-family: "Saira Semi Condensed", sans-serif;
+  float:center;
+}
+
+body {
+  background: black;
+  animation: color-me-in 10s infinite; 
+}
+
+@keyframes color-me-in {
+  0% {
+    background: orange;
+  }
+
+  25% {
+    background: red;
+  }
+  50% {
+    background: violet;
+  }
+  75% {
+    background: red;
+  }
+  100% {
+    background: orange;
+  }
+
+}
+
+.ratings {
+    color: blue;
+    font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.btn-primary {
+    margin-left: 100px;
+    background: lightblue;
+    color: darkblue;
+    display:inline-block;
+
+}
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color:white;
+    font-family: "Saira Semi Condensed", sans-serif;
+} 
